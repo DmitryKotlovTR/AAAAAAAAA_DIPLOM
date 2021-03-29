@@ -2,17 +2,26 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>jCaptcha - Шаг 1</title>
+	<title>Captcha</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<header>
 
-<form action="go.php" method="post">
-	Введите имя: <input name="name"><br>
-	Введите email: <input name="email"><br>
-	Введите код с картинки: <input name="captcha">
-	<img title="Щёлкните для нового кода" alt="Код" src="jcaptcha.php" style="border: 1px solid #000000" onclick="this.src='jcaptcha.php?id=' + (+new Date());"><br>
-	<input type="submit" value="Отправить!">
-</form>
+	</header>
+	<main>
+		<form action="go.php" method="post" class="login__box">
+			<h1>LOGIN</h1>
+			<input name="name" placeholder="Username:" type="text" autocomplete="off"><br>
+			<input name="email" placeholder="Email:" type="email" autocomplete="off"><br>
+			<input type="password" placeholder="Password:"><br>
+			<img title="Щёлкните для нового кода" alt="Код" src="jcaptcha.php" style="border: 1px solid #000000" onclick="this.src='jcaptcha.php?id=' + (+new Date());"><br>
+			<input name="captcha" placeholder="Код с картинки:" type="text" autocomplete="off"><br>
+			<input type="submit" value="Login">
+		</form>
+	</main>
+	<footer>
 
+	</footer>
 </body>
 </html>
