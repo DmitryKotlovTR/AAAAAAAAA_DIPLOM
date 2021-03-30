@@ -70,3 +70,6 @@ body {
 .login__box input[type = "submit"]:hover {
     background: #2ecc71;
 }
+div>a {
+    display: none;
+}
