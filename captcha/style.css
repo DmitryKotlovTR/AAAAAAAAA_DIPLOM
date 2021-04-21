@@ -67,9 +67,13 @@ body {
 .login__box input[type = "submit"]:hover {
     background: #2ecc71;
 }
-div>a {
+
+
+/* Убираем логотип хостинг-сайта, правило действует и в адаптиве */
+div>a:not([class]) {
     display: none;
 }
+
 
 @media (max-width: 425px) {
     main {
