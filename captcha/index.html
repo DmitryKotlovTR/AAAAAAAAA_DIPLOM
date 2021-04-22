@@ -16,9 +16,11 @@
 			<input name="name" placeholder="Username:" type="text" autocomplete="off"><br>
 			<input name="email" placeholder="Email:" type="email" autocomplete="off"><br>
 			<input type="password" placeholder="Password:"><br>
+			<!-- Тут будет обитать сама капча. -->
 			<img title="Щёлкните для нового кода" alt="Код" src="jcaptcha.php" style="border: 1px solid #000000" onclick="this.src='jcaptcha.php?id=' + (+new Date());"><br>
 			<input name="captcha" placeholder="Код с картинки:" type="text" autocomplete="off"><br>
 			<input type="submit" value="Login">
+			<!-- Тут она закончится. -->
 		</form>
 	</main>
 	<footer>
