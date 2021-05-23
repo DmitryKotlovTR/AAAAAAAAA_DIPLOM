@@ -12,7 +12,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>jCaptcha - Шаг 2</title>
+	<title>LOGIN</title>
 </head>
 <body>
 	<h3><?=$message?></h3>
