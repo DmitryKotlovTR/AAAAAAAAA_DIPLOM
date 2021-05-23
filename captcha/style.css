@@ -3,7 +3,8 @@ html {
 }
 body {
     font-family: sans-serif;
-    background: linear-gradient(-50deg, #970d1a, #4e204d);
+    background: linear-gradient(-50deg, #4e0606, #4e204d);
+    /* background: #505050; */
     height: 100%;
     display: flex;
     justify-content: center;
@@ -16,9 +17,10 @@ body {
     width: 300px;
     padding: 40px;
     /* transform: translate(-50%, -50%); */
-    background: #191919;
+    /* background: #191919; */
     text-align: center;
-    background: linear-gradient(-50deg, #970d1a, #4e204d);
+    background: linear-gradient(-50deg, #4e0606, #4e204d);
+    /* background: #606060; */
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 5px;
 }
